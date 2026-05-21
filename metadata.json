@@ -1,0 +1,6 @@
+{
+  "name": "SkyControl GCS",
+  "description": "Aerospace-grade military telemetry and mission ground control station for tactical autonomous drones.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

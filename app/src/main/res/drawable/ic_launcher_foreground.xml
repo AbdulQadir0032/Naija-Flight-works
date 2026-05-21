@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer tactical targeting perimeter -->
+    <path
+        android:strokeColor="#00FFE0"
+        android:strokeWidth="1.2"
+        android:strokeAlpha="0.35"
+        android:fillColor="#00000000"
+        android:pathData="M 54 22 A 32 32 0 1 1 53.9 22 Z" />
+    <path
+        android:strokeColor="#00FFE0"
+        android:strokeWidth="0.8"
+        android:strokeAlpha="0.15"
+        android:fillColor="#00000000"
+        android:pathData="M 54 11 A 43 43 0 1 1 53.9 11 Z" />
+        
+    <!-- Precision target dashes -->
+    <path
+        android:strokeColor="#00FFE0"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.5"
+        android:pathData="M 54 4 L 54 16 M 54 92 L 54 104" />
+    <path
+        android:strokeColor="#00FFE0"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.5"
+        android:pathData="M 4 54 L 16 54 M 92 54 L 104 54" />
+
+    <!-- Drone carbon arms -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M 28 28 L 80 80" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M 80 28 L 28 80" />
+
+    <!-- TL Propeller -->
+    <path
+        android:fillColor="#00FF77"
+        android:pathData="M 28 21 A 7 7 0 1 1 27.9 21 Z" />
+    <path
+        android:strokeColor="#00FF77"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M 18 28 L 38 28" />
+
+    <!-- TR Propeller -->
+    <path
+        android:fillColor="#00FF77"
+        android:pathData="M 80 21 A 7 7 0 1 1 79.9 21 Z" />
+    <path
+        android:strokeColor="#00FF77"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M 70 28 L 90 28" />
+
+    <!-- BL Propeller -->
+    <path
+        android:fillColor="#00FF77"
+        android:pathData="M 28 73 A 7 7 0 1 1 27.9 73 Z" />
+    <path
+        android:strokeColor="#00FF77"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M 18 80 L 38 80" />
+
+    <!-- BR Propeller -->
+    <path
+        android:fillColor="#00FF77"
+        android:pathData="M 80 73 A 7 7 0 1 1 79.9 73 Z" />
+    <path
+        android:strokeColor="#00FF77"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M 70 80 L 90 80" />
+
+    <!-- Central drone core payload pod -->
+    <path
+        android:fillColor="#121C2B"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M 54 41 A 13 13 0 1 1 53.9 41 Z" />
+        
+    <!-- Glowing internal sensor core lens -->
+    <path
+        android:fillColor="#00FFE0"
+        android:pathData="M 54 48 A 6 6 0 1 1 53.9 48 Z" />
+        
+</vector>
